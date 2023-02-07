@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "30 7 * * *" #in UTC + military time
+    - cron: "30 7 * * 3" #in UTC + military time (once per wk on Wed)
 
 jobs:
   achievements:
